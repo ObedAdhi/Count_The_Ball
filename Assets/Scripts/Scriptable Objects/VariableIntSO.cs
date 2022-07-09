@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VariableIntSO : ScriptableObject
 {
-    [SerializeField] string variableName;
+    public string variableName;
 	public int Value;
 }
 

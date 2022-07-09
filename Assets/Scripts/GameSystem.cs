@@ -10,23 +10,23 @@ public class GameSystem : MonoBehaviour
     public VariableIntSO scoreLeft;
     public VariableIntSO scoreRight;
     public VariableIntSO scoreBottom;
-    public TMP_Text stringTop;
-    public TMP_Text stringLeft;
-    public TMP_Text stringRight;
-    public TMP_Text stringBottom;
+    // public TMP_Text stringTop;
+    // public TMP_Text stringLeft;
+    // public TMP_Text stringRight;
+    // public TMP_Text stringBottom;
 
 
     void Start()
     {
-        SetScoreUI();
+        // SetScoreUI();
     }
 
     void SetScoreUI()
     {
-        stringTop.text = "Top: " + scoreTop.Value.ToString();
-        stringLeft.text = "Left: " + scoreLeft.Value.ToString();
-        stringRight.text = "Right: " + scoreRight.Value.ToString();
-        stringBottom.text = "Bottom: " + scoreBottom.Value.ToString();
+        // stringTop.text = "Top: " + scoreTop.Value.ToString();
+        // stringLeft.text = "Left: " + scoreLeft.Value.ToString();
+        // stringRight.text = "Right: " + scoreRight.Value.ToString();
+        // stringBottom.text = "Bottom: " + scoreBottom.Value.ToString();
     }
 
     void Update()

@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class BarMechanics : MonoBehaviour
 {
+    public TMP_Text textUI;
     public VariableIntSO barScoreSO;
 
     void Start()
     {
-        
+        SetUIText();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -17,9 +20,13 @@ public class BarMechanics : MonoBehaviour
         if (collision.gameObject.tag == "Ball")
         {
             barScoreSO.Value += 1;
-        Debug.Log("ball");
-
+            SetUIText();
+            Debug.Log("ball");
         }
+    }
+
+    void SetUIText() {
+        textUI.text = barScoreSO.variableName + ": " + barScoreSO.Value.ToString();
     }
 
     void Update()

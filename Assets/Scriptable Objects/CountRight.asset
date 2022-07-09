@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6006dd7f4607a14d9e3ff841156f34e, type: 3}
   m_Name: CountRight
   m_EditorClassIdentifier: 
-  variableName: Count Right
-  Value: 0
+  variableName: Right
+  Value: 1
