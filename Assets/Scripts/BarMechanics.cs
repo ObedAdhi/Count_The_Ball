@@ -22,6 +22,7 @@ public class BarMechanics : MonoBehaviour
             barScoreSO.Value += 1;
             SetUIText();
             Debug.Log("ball");
+            Destroy(collision.collider.gameObject);
         }
     }
 

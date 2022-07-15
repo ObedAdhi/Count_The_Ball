@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CountLeft
   m_EditorClassIdentifier: 
   variableName: Left
-  Value: 1
+  Value: 0

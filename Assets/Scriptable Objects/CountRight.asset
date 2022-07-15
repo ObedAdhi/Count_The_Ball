@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CountRight
   m_EditorClassIdentifier: 
   variableName: Right
-  Value: 1
+  Value: 0

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CountTop
   m_EditorClassIdentifier: 
   variableName: Top
-  Value: 5
+  Value: 0
