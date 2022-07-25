@@ -18,6 +18,7 @@ public class GameSystem : MonoBehaviour
 
     void Start()
     {
+        Application.targetFrameRate = 90;
         // SetScoreUI();
     }
 
